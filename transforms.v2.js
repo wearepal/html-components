@@ -156,7 +156,7 @@ pal-header .nav a {
 }
 </style>
 <div class="content">
-  <a href="/" class="logo">
+  <a href="https://predictive-analytics-lab.github.io/" class="logo">
     ${J}
     Predictive Analytics Laboratory
   </a>
@@ -323,8 +323,8 @@ distill-header .nav a {
 
   <a href="/" class="logo">
     ${J}
-    Distill
-  </a> is dedicated to clear explanations of machine learning
+    Predictive Analytics Laboratory
+  </a> is dedicated to solving big problems with big ideas
 
   <div class="nav">
     <a href="https://predictive-analytics-lab.github.io/#important_dates">About</a>
