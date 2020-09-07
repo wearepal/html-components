@@ -56,7 +56,7 @@ export const palFooterTemplate = `
   <a href="/" class="logo">
     ${logo}
     Predictive Analytics Laboratory
-  </a> does machine learning research
+  </a> does innovative machine learning research
 
   <div class="nav">
     <a href="https://predictive-analytics-lab.github.io/#important_dates">About</a>
