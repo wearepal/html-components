@@ -629,14 +629,14 @@ pal-header .nav a {
 }
 </style>
 <div class="content">
-  <a href="https://predictive-analytics-lab.github.io/" class="logo">
+  <a href="https://predictive-analytics-lab.com/" class="logo">
     ${Jr}
     Predictive Analytics Laboratory
   </a>
   <nav class="nav">
-    <a href="https://predictive-analytics-lab.github.io/reading">Reading Group</a>
-    <a href="https://predictive-analytics-lab.github.io/publications">Publications</a>
-    <a href="https://predictive-analytics-lab.github.io/jobs">Jobs</a>
+    <a href="https://predictive-analytics-lab.com/reading">Reading Group</a>
+    <a href="https://predictive-analytics-lab.com/publications">Publications</a>
+    <a href="https://predictive-analytics-lab.com/jobs">Jobs</a>
   </nav>
 </div>
 `,eo=Ti('pal-header',Gr,!1);class to extends eo(HTMLElement){}const no=`
@@ -800,12 +800,12 @@ distill-header .nav a {
   </a> is dedicated to solving big problems with big ideas
 
   <div class="nav">
-    <a href="https://predictive-analytics-lab.github.io/#important_dates">About</a>
-    <a href="https://predictive-analytics-lab.github.io/#projects">Projects</a>
-    <a href="https://predictive-analytics-lab.github.io/#teampics">Team</a>
-    <a href="https://predictive-analytics-lab.github.io/publications">Publications</a>
-    <a href="https://predictive-analytics-lab.github.io/reading">Reading Group</a>
-    <a href="https://predictive-analytics-lab.github.io/#contactUs">Contact</a>
+    <a href="https://predictive-analytics-lab.com/#important_dates">About</a>
+    <a href="https://predictive-analytics-lab.com/#projects">Projects</a>
+    <a href="https://predictive-analytics-lab.com/#teampics">Team</a>
+    <a href="https://predictive-analytics-lab.com/publications">Publications</a>
+    <a href="https://predictive-analytics-lab.com/reading">Reading Group</a>
+    <a href="https://predictive-analytics-lab.com/#contactUs">Contact</a>
     <a href="https://github.com/predictive-analytics-lab">GitHub</a>
   </div>
 
