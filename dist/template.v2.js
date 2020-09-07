@@ -2,6 +2,7 @@
   author = {${e.bibtexAuthors}},
   title = {${e.title}},
   year = {${e.publishedYear}},
+  note = {${e.url}},
 }`}function y(e){return`
   <div class="byline grid">
     <div class="authors-affiliations grid">
