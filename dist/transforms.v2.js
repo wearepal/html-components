@@ -324,7 +324,7 @@ distill-header .nav a {
   <a href="/" class="logo">
     ${J}
     Predictive Analytics Laboratory
-  </a> is dedicated to solving big problems with big ideas
+  </a> does innovative machine learning research
 
   <div class="nav">
     <a href="https://predictive-analytics-lab.com/#important_dates">About</a>
