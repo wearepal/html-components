@@ -96,6 +96,7 @@ export function mergeFromYMLFrontmatter(target, source) {
   target.authors = source.authors.map( (authorObject) => new Author(authorObject));
   target.katex = source.katex;
   target.password = source.password;
+  target.url = source.url;
   if (source.doi) {
     target.doi = source.doi;
   }
