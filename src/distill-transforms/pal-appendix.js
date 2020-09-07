@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { appendixTemplate } from '../distill-components/distill-appendix';
+import { appendixTemplate } from '../distill-components/pal-appendix';
 
 export default function(dom, data) {
 
@@ -21,11 +21,11 @@ export default function(dom, data) {
     console.warn('No appendix tag found!');
     return;
   }
-  const distillAppendixTag = appendixTag.querySelector('distill-appendix');
-  if (!distillAppendixTag) {
-    const distillAppendix = dom.createElement('distill-appendix');
-    appendixTag.appendChild(distillAppendix);
-    distillAppendix.innerHTML = appendixTemplate(data);
+  const palAppendixTag = appendixTag.querySelector('pal-appendix');
+  if (!palAppendixTag) {
+    const palAppendix = dom.createElement('pal-appendix');
+    appendixTag.appendChild(palAppendix);
+    palAppendix.innerHTML = appendixTemplate(data);
   }
 
 }

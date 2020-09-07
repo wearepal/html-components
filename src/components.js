@@ -43,7 +43,7 @@ import { Slider }          from './ui/d-slider';
 /* Distill website specific components */
 import { PalHeader }   from './distill-components/pal-header';
 import { DistillHeader }   from './distill-components/distill-header';
-import { DistillAppendix } from './distill-components/distill-appendix';
+import { PalAppendix } from './distill-components/pal-appendix';
 import { PalFooter }   from './distill-components/pal-footer';
 import { DistillFooter }   from './distill-components/distill-footer';
 
@@ -90,7 +90,7 @@ const initialize = function() {
     Slider, Interstitial
   ];
 
-  const distillComponents = [PalHeader, DistillHeader, DistillAppendix, PalFooter, DistillFooter];
+  const distillComponents = [PalHeader, DistillHeader, PalAppendix, PalFooter, DistillFooter];
 
   if (window.distill.runlevel < 2) {
     throw new Error("Insufficient Runlevel for adding custom elements!");

@@ -57,14 +57,14 @@ const transforms = new Map([
 /* Distill Transforms */
 import PalHeader from './distill-transforms/pal-header';
 import DistillHeader from './distill-transforms/distill-header';
-import DistillAppendix from './distill-transforms/distill-appendix';
+import PalAppendix from './distill-transforms/pal-appendix';
 import PalFooter from './distill-transforms/pal-footer';
 import DistillFooter from './distill-transforms/distill-footer';
 
 const distillTransforms = new Map([
   ['palHeader', PalHeader],
   ['DistillHeader', DistillHeader],
-  ['DistillAppendix', DistillAppendix],
+  ['PalAppendix', PalAppendix],
   ['PalFooter', PalFooter],
   ['DistillFooter', DistillFooter],
 ]);
