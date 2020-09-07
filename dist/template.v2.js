@@ -629,7 +629,7 @@ pal-header .nav a {
 }
 </style>
 <div class="content">
-  <a href="https://predictive-analytics-lab.com/" class="logo">
+  <a href="https://predictive-analytics-lab.github.io/" class="logo">
     ${Jr}
     Predictive Analytics Laboratory
   </a>
