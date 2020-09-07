@@ -16,11 +16,11 @@ import { serializeFrontmatterToBibtex } from '../helpers/bibtex';
 
 const styles = `
 <style>
-  distill-appendix {
+  pal-appendix {
     contain: layout style;
   }
 
-  distill-appendix .citation {
+  pal-appendix .citation {
     font-size: 11px;
     line-height: 15px;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ const styles = `
     word-wrap: break-word;
   }
 
-  distill-appendix > * {
+  pal-appendix > * {
     grid-column: text;
   }
 </style>
@@ -69,7 +69,7 @@ export function appendixTemplate(frontMatter) {
     html += `
     <h3 id="citation">Citation</h3>
     <p>For attribution in academic contexts, please cite this work as</p>
-    <pre class="citation short">${frontMatter.concatenatedAuthors}, "${frontMatter.title}", Distill, ${frontMatter.publishedYear}.</pre>
+    <pre class="citation short">${frontMatter.concatenatedAuthors}, "${frontMatter.title}", PAL, ${frontMatter.publishedYear}.</pre>
     <p>BibTeX citation</p>
     <pre class="citation long">${serializeFrontmatterToBibtex(frontMatter)}</pre>
     `;
@@ -78,9 +78,9 @@ export function appendixTemplate(frontMatter) {
   return html;
 }
 
-export class DistillAppendix extends HTMLElement {
+export class PalAppendix extends HTMLElement {
 
-  static get is() { return 'distill-appendix'; }
+  static get is() { return 'pal-appendix'; }
 
   set frontMatter(frontMatter) {
     this.innerHTML = appendixTemplate(frontMatter);

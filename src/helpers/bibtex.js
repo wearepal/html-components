@@ -40,9 +40,9 @@ export function serializeFrontmatterToBibtex(frontMatter) {
   return `@article{${frontMatter.slug},
   author = {${frontMatter.bibtexAuthors}},
   title = {${frontMatter.title}},
-  journal = {${frontMatter.journal.title}},
   year = {${frontMatter.publishedYear}},
-  note = {${frontMatter.url}},
-  doi = {${frontMatter.doi}}
 }`;
+  // doi = {${frontMatter.doi}}
+  // note = {${frontMatter.url}},
+  // journal = {${frontMatter.journal.title}},
 }

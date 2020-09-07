@@ -150,7 +150,7 @@ export const Controller = {
       if (!prerendered && domContentLoaded()) {
         optionalComponents(document, frontMatter);
 
-        const appendix = document.querySelector("distill-appendix");
+        const appendix = document.querySelector("pal-appendix");
         if (appendix) {
           appendix.frontMatter = frontMatter;
         }

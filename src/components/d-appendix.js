@@ -67,7 +67,7 @@ d-appendix > * {
 
 d-appendix > d-footnote-list,
 d-appendix > d-citation-list,
-d-appendix > distill-appendix {
+d-appendix > pal-appendix {
   grid-column: screen;
 }
 
