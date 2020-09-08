@@ -1,4 +1,4 @@
-import logo from '../assets/distill-logo.svg';
+import logo from '../assets/pal-logo.base64';
 
 export const palFooterTemplate = `
 <style>
@@ -54,7 +54,7 @@ export const palFooterTemplate = `
 <div class='footer-container'>
 
   <a href="/" class="logo">
-    ${logo}
+    <img src="data:image/png;base64,${logo}" alt="PAL logo">
     Predictive Analytics Laboratory
   </a> does innovative machine learning research
 

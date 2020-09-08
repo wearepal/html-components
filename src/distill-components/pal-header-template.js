@@ -1,4 +1,4 @@
-import logo from '../assets/distill-logo.svg';
+import logo from '../assets/pal-logo.base64';
 
 export const palHeaderTemplate = `
 <style>
@@ -55,6 +55,10 @@ pal-header .logo {
   font-size: 17px;
   font-weight: 200;
 }
+pal-header .logo img {
+  height: 1.6rem;
+  margin-bottom: -0.3rem;
+}
 pal-header .nav {
   float: right;
   font-weight: 300;
@@ -67,7 +71,7 @@ pal-header .nav a {
 </style>
 <div class="content">
   <a href="https://predictive-analytics-lab.github.io/" class="logo">
-    ${logo}
+    <img src="data:image/png;base64,${logo}" alt="PAL logo">
     Predictive Analytics Laboratory
   </a>
   <nav class="nav">
