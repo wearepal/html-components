@@ -107,6 +107,7 @@ figure {
   position: relative;
   margin-bottom: 2.5em;
   margin-top: 1.5em;
+  text-align: center;
 }
 
 figcaption+figure {
